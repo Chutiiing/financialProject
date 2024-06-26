@@ -1,0 +1,10 @@
+baostock
+gym
+matplotlib
+numpy
+pandas
+qlib
+sb3_contrib
+stable_baselines3
+shimmy
+fire
