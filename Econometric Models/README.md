@@ -1,0 +1,9 @@
+- cal_return.py是计算收益率的代码
+- GARCH.py是将条件标准差引入的代码
+- GARCH_prefilter.py是将适合进行GARCH建模的数据集进行筛选的代码
+- GARCH_presta.py将计算所有数据集各自的ADF统计量和ARCH效应统计量
+- plot.py绘制同时展示收益率和条件标准差的折线图
+- plot1.py绘制两个统计量的散点图
+- without_garch.py是不包含特征适应器和GARCH，仅有LSTM的训练代码
+- with_garch.py是包含GARCH，LSTM的训练代码
+- with_garch_adapter.py是包含特征适应器，GARCH，LSTM的训练代码
